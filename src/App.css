@@ -1,22 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.App .left{
+  width:25%;
+}
+.right{
+  width: 25%;
+}
+.main{
+  width: 50%;
+}
+.top{
+  padding: 80px;
+}
+.searchBar{
+  height: 100px;
+}
+input{
+  margin-left: 60px;
+  height: 40px;
+  width: 60%;
+  border-style: solid solid solid solid;
+}
+button{
+  margin-left: 20px;
+  height: 40px;
+  width: 80px;
+  border-style: solid solid solid solid;
+}
+.bookList{
+  height: 500px;
+}
+.book{
+  min-height: 250px;
+  width: 100%;
+  display: flex;
+  margin: 30px;
+  height: fit-content;
+}
+.cover{
+  flex: 1;
+  border-style: solid solid solid solid;
+  height: available;
+}
+.book-right{
+  flex: 2;
+  border-style: solid solid solid solid;
+  height: fit-content;
+  min-height: 250px;
+}
+p{
+  margin-left: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  height: auto;
+}
+img{
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+h{
+  margin-left: 100px;
+  font-size: 30px;
 }
